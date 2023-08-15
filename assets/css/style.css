@@ -299,7 +299,8 @@ html {
 
 /* =================== Header Style Starts Here =================== */
 .home-screen {
-  background-image: url(../images/bg.jpg); }
+  background-image: url(../images/bg.jpg); 
+}
   .home-screen .scroll-to-fixed-fixed {
     background-color: #FFF;
     margin-top: -3px !important;
@@ -368,6 +369,7 @@ html {
     .home-screen .home-detail .hom-img {
       text-align: center; }
       .home-screen .home-detail .hom-img img {
+        opacity:0.8;
         width: 90%; }
     .home-screen .home-detail .homexp {
       color: #FFF;
