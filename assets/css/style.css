@@ -536,6 +536,57 @@ html {
 .skills .pro-skill {
   background-color: #f9fafc; }
 
+#box, #technologies {
+  padding: 10px;
+  text-align: center;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.box {
+  background-color: #fff;
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 2s ease-in-out;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.icon-box {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.tech {
+  margin-top: 30px;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 15px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.icon-box:hover .icon {
+  border-color: orange;
+  box-shadow: 0 6px 20px rgba(255, 165, 0, 0.4);
+}
+
+.icon img.logo {
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
+}
+
 
 /* ===================================== Portfolio Style  ================================== */
 .gallery-filter {
@@ -546,6 +597,7 @@ html {
   background-color: #FFF; }
 
 .gallery {
+  margin-top: 15px;
   padding: 50px;
   padding: 30px;
   background-color: #FFF; }
@@ -596,8 +648,6 @@ html {
 
 .gallery_product {
   margin-bottom: 30px; }
-
-
 
 /* =================== Contact US Starts Here =================== */
 .cop-ck {
