@@ -10,7 +10,7 @@ $( document ).ready(function() {
 })
 
 var typed= new Typed(".home-screen .home-detail .homexp h3 .text", {
-    strings: ["Web Development", "UI/UX Designing", "Frontend Development"],
+    strings: [ "UI/UX Designing", "Frontend Development", "Web Development", "Mobile Development"],
     typeSpeed: 150,
     backSpeed: 150,
     backDelay: 500,
